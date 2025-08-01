@@ -1,0 +1,67 @@
+/* Importación de la fuente */
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* Estilos generales del body */
+body {
+  background-image: url('/finalProject/imagenes/tatyana-dobreva-i6Wc5qZO5MQ-unsplash.jpg');
+  font-family: 'Roboto Condensed', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Contenedor de la navegación */
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 100px;
+}
+
+/* Nombre de la navegación */
+.nav-name {
+  font-size: 12px;
+  color: white;
+  padding-left: 35px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+/* Opciones de navegación */
+.nav-options button {
+  color: whitesmoke;
+  border: none;
+  background-color: transparent;
+  padding-left: 40px;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 20px;
+}
+
+/* Opción "Get Started" */
+
+.get-started-option{
+  padding-right: 35px;
+}
+.get-started-option button {
+  font-size: 15px;
+  color: white;
+  background-color: orange;
+  border-radius: 15px;
+  padding-right: 25px;
+  padding-left: 25px;
+}
+
+/* Contenedor principal */
+.landing-container {
+  padding-top: 9%;
+}
+
+/* Mensajes de la landing page */
+.landing-message h1,
+.landing-message p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 40px;
+  font-family: 'Times New Roman', Times, serif;
+  color: white;
+}
